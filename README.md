@@ -7,7 +7,7 @@
 [![AWS](https://img.shields.io/badge/AWS-%F0%9F%9B%A1-orange)](https://aws.amazon.com)
 [![Terraform](https://img.shields.io/badge/Terraform-%E2%9C%A8-lightgrey)](https://www.terraform.io)
 
-This repository contains Terraform configurations for deploying various AWS services using modular and non-modular implementations.
+This repository contains Terraform configurations for deploying various AWS services using modular,non-modular implementations.
 
 ## Table of Contents
 
@@ -97,6 +97,3 @@ Contributions to this repository are welcome! If you have any improvements or ad
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Contact
-
-If you have any questions, suggestions, or feedback, please feel free to contact the project maintainer at [aman.pathk23@gmail.com](mailto:aman.pathk23@gmail.com).
