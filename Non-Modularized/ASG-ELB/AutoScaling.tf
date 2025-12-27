@@ -18,7 +18,6 @@ resource "aws_autoscaling_group" "Aman-ASG" {
 
 }
 
-
 resource "aws_autoscaling_policy" "custom-cpu-policy" {
   name                   = "custom-cpu-policy"
   autoscaling_group_name = aws_autoscaling_group.Aman-ASG.id
