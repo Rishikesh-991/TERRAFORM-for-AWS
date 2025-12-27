@@ -34,6 +34,7 @@ module "security-group" {
   depends_on = [module.vpc]
 }
 
+
 module "rds" {
   source = "../modules/aws-rds"
 
@@ -49,6 +50,7 @@ module "rds" {
   depends_on = [module.security-group]
 }
 
+
 module "alb" {
   source = "../modules/alb-tg"
 
@@ -61,6 +63,7 @@ module "alb" {
 
   depends_on = [module.rds]
 }
+
 
 module "iam" {
   source = "../modules/aws-iam"
